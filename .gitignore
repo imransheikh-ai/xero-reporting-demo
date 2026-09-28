@@ -1,0 +1,10 @@
+@"
+.env
+tokens.json
+.venv/
+__pycache__/
+/Management_Report_*.xlsx
+/commentary.md
+/variance.csv
+/variance.json
+"@ | Set-Content -Path .gitignore -Encoding ascii
